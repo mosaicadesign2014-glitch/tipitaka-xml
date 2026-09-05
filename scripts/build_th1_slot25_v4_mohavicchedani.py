@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-THERAVĀDA I — PASS C3-B
+THERAVĀDA I — PASS C3-B / BUILDER v4.2
 Build ONLY slot 25 v4 by preserving the already-audited slot 25 v3 and
 appending one extracted VRI/CST source segment: Mohavicchedanī.
 
@@ -146,7 +146,16 @@ def extract_mohavicchedani(xml_path: Path):
             i for i,p in enumerate(paras)
             if i > prefix_end and p["key"] == "mohavicchedanī"
         ]
-    heading = find_unique(heading_hits, "Mohavicchedanī heading")
+    if not heading_hits:
+        raise RuntimeError("No Mohavicchedanī heading found after Abhidhammamātikāpāḷi explicit.")
+
+    # VRI aggregate XML can repeat the work title later (for example in a
+    # colophon/structural closing context).  The work-start is therefore the
+    # EARLIEST Mohavicchedanī heading after the derived mātikā explicit.
+    # Later same-title structural occurrences are audit information, not
+    # alternative start boundaries.
+    heading = min(heading_hits)
+    later_moh_headings = [i for i in heading_hits if i != heading]
 
     # Include the nearest Namo tassa between the mātikā explicit and the heading.
     namo_hits = [
@@ -237,6 +246,8 @@ def extract_mohavicchedani(xml_path: Path):
         "aggregate_paragraphs": len(paras),
         "prefix_end_index": prefix_end,
         "heading_index": heading,
+        "all_mohavicchedani_heading_indices": heading_hits,
+        "later_mohavicchedani_heading_indices": later_moh_headings,
         "start_index": start,
         "extracted_paragraphs": len(segment),
         "extracted_bytes": len(extracted_bytes),
@@ -361,7 +372,9 @@ END_DERIVED_SOURCE
         f"AGGREGATE_XML_PARAGRAPHS: {audit['aggregate_paragraphs']}",
         "",
         f"DERIVED_PREFIX_EXPLICIT_INDEX: {audit['prefix_end_index']}",
-        f"MOHAVICCHEDANI_HEADING_INDEX: {audit['heading_index']}",
+        f"MOHAVICCHEDANI_START_HEADING_INDEX: {audit['heading_index']}",
+        f"ALL_MOHAVICCHEDANI_STRUCTURAL_INDICES: {audit['all_mohavicchedani_heading_indices']}",
+        f"LATER_SAME_TITLE_STRUCTURAL_INDICES: {audit['later_mohavicchedani_heading_indices']}",
         f"EXTRACTION_START_INDEX: {audit['start_index']}",
         f"EXTRACTED_PARAGRAPHS: {audit['extracted_paragraphs']}",
         f"EXTRACTED_BYTES_UTF8: {audit['extracted_bytes']}",
