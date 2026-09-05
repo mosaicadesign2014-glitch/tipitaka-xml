@@ -74,14 +74,14 @@ jobs:
 
           # The extracted Moh block itself must not contain the derived-prefix explicit.
           python - <<'PY'
-from pathlib import Path
-t=Path("build/slot25-v4/25_ABHIDHAMMA_TIKA_MANUALS.txt").read_text(encoding="utf-8")
-start=t.index("SOURCE_FILE: derived/vri/abh09t.nrf.xml#Mohavicchedanī")
-moh=t[start:]
-assert "Abhidhammamātikāpāḷi niṭṭhitā" not in moh
-assert moh.count("WORK: Mohavicchedanī") == 1
-print("Derived-prefix exclusion check PASS")
-PY
+          from pathlib import Path
+          t = Path("build/slot25-v4/25_ABHIDHAMMA_TIKA_MANUALS.txt").read_text(encoding="utf-8")
+          start = t.index("SOURCE_FILE: derived/vri/abh09t.nrf.xml#Mohavicchedanī")
+          moh = t[start:]
+          assert "Abhidhammamātikāpāḷi niṭṭhitā" not in moh
+          assert moh.count("WORK: Mohavicchedanī") == 1
+          print("Derived-prefix exclusion check PASS")
+          PY
 
           sha256sum "$FILE" > build/slot25-v4/ARTIFACT_SHA256SUMS.txt
           sha256sum "$AUDIT" >> build/slot25-v4/ARTIFACT_SHA256SUMS.txt
