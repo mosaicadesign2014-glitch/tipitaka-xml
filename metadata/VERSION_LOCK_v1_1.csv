@@ -1,0 +1,4 @@
+dataset,upstream,commit,status,evidence
+VRI_CST_ROMN_TH1,https://github.com/VipassanaTech/tipitaka-xml,e064d02da2db3df9a7d116a9191092b12e6dfe01,VERIFIED_156_VRI_UNITS_WITH_01_13_EXPLICIT_AUDIT,01-13: 61/61 SHA256 PASS; 14-25: pinned in slot builders/metadata
+CSTKIT_KANKHAVITARANI,https://github.com/bhaddacak/cst-kit,cc0bab5fdf378d01deb3649112c0a9fddc317283,PINNED_C2A,2 source blocks in slot 15
+RUPARUPAVIBHAGA_PTS1915,PTS 1915 pp.149-159,N/A,DIPLOMATIC_C2B5,1 external source block in slot 25; unresolved E/H preserved

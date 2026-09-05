@@ -1,0 +1,31 @@
+THERAVĀDA I — C2-C SEMANTIC RETRIEVAL TEST REPORT v1
+
+DECISION:
+Keep SUBWORK normalization in a separate registry layer.
+Do NOT rewrite TH1 slots 22, 24, or 25 merely to insert SUBWORK markers.
+
+WHY:
+The current full-text/indexed corpus already retrieves clear logical subworks
+from their own internal headings and explicit endings, even when one VRI XML
+contains several logical works.
+
+TESTED POSITIVE EXAMPLES:
+- slot 24: Uttaravinicchaya
+- slot 24: Khuddasikkhā / Khuddasikkhā-purāṇaṭīkā / Khuddasikkhā-abhinavaṭīkā
+- slot 24: Mūlasikkhā / Mūlasikkhā-ṭīkā
+- slot 25: Nāmarūpapariccheda
+- slot 25: Paramatthavinicchaya
+- slot 25: Saccasaṅkhepa
+- slot 25: Abhidhammatthavibhāvinī-ṭīkā
+- slot 25: Paṭṭhānapakaraṇa-anuṭīkā
+
+POLICY:
+1. SOURCE_FILE remains the immutable technical/provenance unit.
+2. SUBWORK_REGISTRY records logical-work boundaries.
+3. Ordinary chapters, volumes, vaggas and divisions are NOT promoted to independent works.
+4. Physical Pāli slot files remain unchanged unless future retrieval testing demonstrates a real failure.
+5. If a query names a subwork, research should route:
+   SUBWORK_REGISTRY -> containing SOURCE_FILE -> exact internal heading/text span.
+
+RESULT:
+REGISTRY-LAYER NORMALIZATION IS SUFFICIENT FOR C2-C v1.

@@ -1,0 +1,35 @@
+THERAVĀDA I — C2-C METADATA FREEZE REPORT v1.1
+
+TEXTUAL CORE:
+25/25 slots present.
+156 source blocks.
+156 unique SOURCE_FILE values.
+156 unique SOURCE_SHA256 values.
+
+PROVENANCE:
+01-13 source XML units: 61/61 verified against
+e064d02da2db3df9a7d116a9191092b12e6dfe01.
+Failures: 0.
+
+SOURCE REGISTRY v1.1 STATUS COUNTS:
+{'VERIFIED_PINNED_01_13': 61, 'PINNED_IN_SLOT': 92, 'VERIFIED_C2A_CSTKIT': 2, 'VERIFIED_C2B5_DIPLOMATIC_EXTERNAL': 1}
+
+SEMANTIC NORMALIZATION:
+36 clear logical subworks recorded in TH1_SUBWORK_REGISTRY_v1.csv.
+Physical slot modification is NOT required at this stage.
+
+CORRECTION FROM v1:
+61 rows previously labeled PENDING_PIN_VERIFY are now
+VERIFIED_PINNED_01_13, using the completed GitHub artifact as evidence.
+
+C2-C DECISION:
+PASS.
+Use registry-layer normalization; preserve Pāli slots unchanged.
+
+NEXT RESEARCH STAGE:
+Pass C3 / external classical gap review after the two P0 gaps:
+- Mohavicchedanī
+- Nāmarūpasamāsa / Khemappakaraṇa
+- Sīmālaṅkārasaṅgaha
+- Nāmacāradīpikā
+with edition/provenance/license gate before ingestion.
