@@ -1,0 +1,45 @@
+name: Validate TH1 C2-C metadata freeze v1.1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate metadata freeze
+        run: python scripts/validate_th1_metadata_v1_1.py
+
+      - name: Package final metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/TH1_C2C_metadata_freeze_v1_1
+          cp metadata/TH1_SOURCE_REGISTRY_v1_1.csv build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/TH1_PROVENANCE_01_13_VERIFIED.csv build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/TH1_SLOT_FREEZE_C2B5_v1.csv build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/TH1_SUBWORK_REGISTRY_v1.csv build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/VERSION_LOCK_v1_1.csv build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/TH1_C2C_RETRIEVAL_TEST_REPORT_v1.txt build/TH1_C2C_metadata_freeze_v1_1/
+          cp metadata/TH1_C2C_METADATA_FREEZE_REPORT_v1_1.txt build/TH1_C2C_metadata_freeze_v1_1/
+          cd build/TH1_C2C_metadata_freeze_v1_1
+          sha256sum * > ARTIFACT_SHA256SUMS.txt
+
+      - name: Upload final metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_C2C_metadata_freeze_v1_1
+          path: build/TH1_C2C_metadata_freeze_v1_1/
+          if-no-files-found: error
+          retention-days: 90
