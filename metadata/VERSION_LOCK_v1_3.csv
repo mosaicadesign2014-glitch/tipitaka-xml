@@ -1,0 +1,4 @@
+dataset,upstream,commit,status,evidence
+VRI_CST_ROMN_TH1,https://github.com/VipassanaTech/tipitaka-xml,e064d02da2db3df9a7d116a9191092b12e6dfe01,LOCKED_154_VRI_DERIVED_SOURCE_BLOCKS,61 slots 01-13 SHA256-verified + 92 prior slots 14-25 pinned + 1 C3-B Mohavicchedanī extracted from abh09t.nrf.xml with upstream and segment SHA256
+CSTKIT_KANKHAVITARANI,https://github.com/bhaddacak/cst-kit,cc0bab5fdf378d01deb3649112c0a9fddc317283,VERIFIED_C2A_2_SOURCE_BLOCKS,2 Kaṅkhāvitaraṇī blocks in slot 15
+RUPARUPAVIBHAGA_PTS1915,PTS 1915 pp.149-159,N/A,VERIFIED_C2B5_1_DIPLOMATIC_EXTERNAL_BLOCK,1 Rūpārūpavibhāga block in slot 25; E/H unresolved readings preserved

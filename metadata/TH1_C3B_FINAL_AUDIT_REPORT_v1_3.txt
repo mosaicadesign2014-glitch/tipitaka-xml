@@ -1,0 +1,71 @@
+THERAVĀDA I — PASS C3-B FINAL AUDIT / METADATA FREEZE v1.3
+
+RESULT: PASS
+
+ARTIFACT
+25_ABHIDHAMMA_TIKA_MANUALS.txt
+SHA256: 0a02c068929495f5998ef74f1d0f1780219ee11c33764477f8baa9d4d419ac3a
+BYTES: 6249710
+SOURCE_BLOCKS: 10
+
+BASE PRESERVATION
+Slot 25 v3 SHA256:
+b901d644e9bef996b59efc24d6bd0822aea793f638ad01e20242185bf8cbdb1f
+
+The complete v3 byte sequence is preserved as the prefix of v4.
+Therefore all nine pre-C3B source blocks are unchanged.
+
+MOHAVICCHEDANĪ
+UPSTREAM_SOURCE_FILE: romn/abh09t.nrf.xml
+UPSTREAM_SOURCE_SHA256:
+af89c67f8144da1e11b0494a4c587a5f84d8e65633ccebf2dfdc532c9b7cb1f5
+
+VRI_COMMIT:
+e064d02da2db3df9a7d116a9191092b12e6dfe01
+
+DERIVED_PREFIX_EXPLICIT_INDEX: 1218
+EXTRACTION_START_INDEX: 1219
+START_HEADING_INDEX: 1220
+LATER_SAME_TITLE_INDEX: 2824
+FINAL_EXPLICIT_INDEX: 2825
+
+The second structural occurrence is the colophon:
+Mohavicchedanī nāma
+followed by:
+Abhidhammamātikatthavaṇṇanā niṭṭhitā.
+
+EXTRACTED_PARAGRAPHS: 1607
+EXTRACTED_BYTES_UTF8: 850612
+EXTRACTED_TEXT_SHA256:
+f6ff1aa52e4964589aa863667354c5f199df83e75f14cc5b2285258d5091b8b2
+
+The extracted-text SHA was independently recomputed from the final slot body
+and matches the builder manifest.
+
+DERIVED PREFIX
+Abhidhammamātikāpāḷi niṭṭhitā is absent from the Mohavicchedanī source body.
+The derived mātikā prefix was not ingested.
+
+SEVEN-MĀTIKĀ GATES
+PASS — Dhammasaṅgaṇī
+PASS — Vibhaṅga
+PASS — Dhātukathā
+PASS — Puggalapaññatti
+PASS — Kathāvatthu
+PASS — Yamaka
+PASS — Paṭṭhāna
+
+C2-B5 PROTECTION
+PASS — E:
+Upacaya-santatiyo (catūhi ?) jāyantīti vuccanti.
+
+PASS — H retained without conjectural emendation.
+
+CORPUS POPULATION AFTER INSTALLATION
+154 VRI-derived/pinned source blocks
+2 cst-kit source blocks
+1 PTS-based diplomatic external source block
+TOTAL: 157
+
+TEXTUAL DECISION
+Mohavicchedanī is approved for TH1 slot 25 installation.
