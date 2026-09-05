@@ -1,0 +1,37 @@
+slot,source_file,subwork_order,subwork_title,subwork_layer,evidence,status
+22,romn/abh03a.att.xml,1,Dhātukathā-aṭṭhakathā,AṬṬHAKATHĀ,Pañcapakaraṇa-aṭṭhakathā collection,logical subwork
+22,romn/abh03a.att.xml,2,Puggalapaññatti-aṭṭhakathā,AṬṬHAKATHĀ,Pañcapakaraṇa-aṭṭhakathā collection,logical subwork
+22,romn/abh03a.att.xml,3,Kathāvatthu-aṭṭhakathā,AṬṬHAKATHĀ,Pañcapakaraṇa-aṭṭhakathā collection,logical subwork
+22,romn/abh03a.att.xml,4,Yamaka-aṭṭhakathā,AṬṬHAKATHĀ,Pañcapakaraṇa-aṭṭhakathā collection,logical subwork
+22,romn/abh03a.att.xml,5,Paṭṭhāna-aṭṭhakathā,AṬṬHAKATHĀ,Pañcapakaraṇa-aṭṭhakathā collection,logical subwork
+24,romn/vin09t.nrf.xml,1,Kaṅkhāvitaraṇī-purāṇaṭīkā,ṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+24,romn/vin09t.nrf.xml,2,Kaṅkhāvitaraṇī-abhinavaṭīkā,ABHINAVAṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+24,romn/vin10t.nrf.xml,1,Vinayavinicchaya,POST-CANONICAL VINAYA MANUAL,⟦CHAPTER⟧ Vinayavinicchayo / explicit,separate work
+24,romn/vin10t.nrf.xml,2,Uttaravinicchaya,POST-CANONICAL VINAYA MANUAL,⟦CHAPTER⟧ Uttaravinicchayo / explicit,separate work
+24,romn/vin11t.nrf.xml,1,Vinayavinicchaya-ṭīkā,ṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+24,romn/vin11t.nrf.xml,2,Uttaravinicchaya-ṭīkā,ṬĪKĀ,explicit: Uttaravinicchayaṭīkā niṭṭhitā,separate work
+24,romn/vin13t.nrf.xml,1,Khuddasikkhā,POST-CANONICAL VINAYA MANUAL,⟦CHAPTER⟧ Khuddasikkhā / explicit,separate work
+24,romn/vin13t.nrf.xml,2,Khuddasikkhā-purāṇaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / explicit,separate work
+24,romn/vin13t.nrf.xml,3,Khuddasikkhā-abhinavaṭīkā,ABHINAVAṬĪKĀ,⟦CHAPTER⟧ / explicit,separate work
+24,romn/vin13t.nrf.xml,4,Mūlasikkhā,POST-CANONICAL VINAYA MANUAL,⟦CHAPTER⟧ Mūlasikkhā / explicit,separate work
+24,romn/vin13t.nrf.xml,5,Mūlasikkhā-ṭīkā,ṬĪKĀ,⟦CHAPTER⟧ Mūlasikkhā-ṭīkā / explicit,separate work
+25,romn/abh02t.tik.xml,1,Vibhaṅga-mūlaṭīkā,ṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+25,romn/abh02t.tik.xml,2,Vibhaṅga-anuṭīkā,ANUṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+25,romn/abh03t.tik.xml,1,Dhātukathāpakaraṇa-mūlaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh03t.tik.xml,2,Puggalapaññattipakaraṇa-mūlaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh03t.tik.xml,3,Kathāvatthupakaraṇa-mūlaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh03t.tik.xml,4,Yamakapakaraṇa-mūlaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh03t.tik.xml,5,Paṭṭhānapakaraṇa-mūlaṭīkā,ṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh05t.nrf.xml,1,Dhātukathāpakaraṇa-anuṭīkā,ANUṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh05t.nrf.xml,2,Puggalapaññattipakaraṇa-anuṭīkā,ANUṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh05t.nrf.xml,3,Kathāvatthupakaraṇa-anuṭīkā,ANUṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh05t.nrf.xml,4,Yamakapakaraṇa-anuṭīkā,ANUṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh05t.nrf.xml,5,Paṭṭhānapakaraṇa-anuṭīkā,ANUṬĪKĀ,⟦CHAPTER⟧ / collection,logical subwork
+25,romn/abh06t.nrf.xml,1,Abhidhammāvatāra,POST-CANONICAL ABHIDHAMMA MANUAL,explicit: Abhidhammāvatāro niṭṭhito,separate work
+25,romn/abh06t.nrf.xml,2,Nāmarūpapariccheda,POST-CANONICAL ABHIDHAMMA MANUAL,⟦CHAPTER⟧ Nāmarūpaparicchedo / explicit,separate work
+25,romn/abh06t.nrf.xml,3,Paramatthavinicchaya,POST-CANONICAL ABHIDHAMMA MANUAL,⟦CHAPTER⟧ Paramatthavinicchayo / explicit,separate work
+25,romn/abh06t.nrf.xml,4,Saccasaṅkhepa,POST-CANONICAL ABHIDHAMMA MANUAL,⟦CHAPTER⟧ Saccasaṅkhepo / explicit,separate work
+25,romn/abh07t.nrf.xml,1,Abhidhammatthasaṅgaha,POST-CANONICAL ABHIDHAMMA MANUAL,⟦BOOK⟧ / explicit,separate work
+25,romn/abh07t.nrf.xml,2,Abhidhammatthavibhāvinī-ṭīkā,ṬĪKĀ,⟦BOOK⟧ / explicit,separate work
+25,romn/abh08t.nrf.xml,1,Abhidhammāvatāra-purāṇaṭīkā,ṬĪKĀ,explicit: Abhidhammāvatārapurāṇaṭīkā niṭṭhitā,separate work
+25,romn/abh08t.nrf.xml,2,Abhidhammāvatāra-abhinavaṭīkā,ABHINAVAṬĪKĀ,⟦NIKĀYA⟧ Abhidhammāvatāra-abhinavaṭīkā,separate work
