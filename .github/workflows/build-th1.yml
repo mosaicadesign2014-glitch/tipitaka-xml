@@ -1,0 +1,83 @@
+name: Build TH1 slots 14-25
+
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: "Official VRI ref. Leave 'main' for the current build, or paste a recorded commit SHA for exact reproduction."
+        required: true
+        default: "main"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout builder files from this fork
+        uses: actions/checkout@v4
+
+      - name: Checkout official VRI upstream
+        uses: actions/checkout@v4
+        with:
+          repository: VipassanaTech/tipitaka-xml
+          ref: ${{ inputs.upstream_ref }}
+          path: upstream/tipitaka-xml
+          fetch-depth: 1
+
+      - name: Set up Python inside GitHub runner
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Record exact official VRI commit SHA
+        id: upstream
+        shell: bash
+        run: |
+          SHA="$(git -C upstream/tipitaka-xml rev-parse HEAD)"
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "Exact official VRI commit: $SHA"
+
+      - name: Build TH1 slots 14-25
+        shell: bash
+        run: |
+          python scripts/build_th1_slots_14_25.py             upstream/tipitaka-xml             --output build/TH1_slots_14_25             --upstream-commit "${{ steps.upstream.outputs.sha }}"
+
+      - name: Integrity checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f build/TH1_slots_14_25/BUILD_MANIFEST.txt
+
+          SLOT_COUNT="$(find build/TH1_slots_14_25 -maxdepth 1 -type f -name '*.txt' ! -name 'BUILD_MANIFEST.txt' | wc -l)"
+          if [ "$SLOT_COUNT" -ne 12 ]; then
+            echo "ERROR: expected 12 slot TXT files, found $SLOT_COUNT"
+            exit 1
+          fi
+
+          for N in $(seq -w 14 25); do
+            COUNT="$(find build/TH1_slots_14_25 -maxdepth 1 -type f -name "${N}_*.txt" | wc -l)"
+            if [ "$COUNT" -ne 1 ]; then
+              echo "ERROR: expected exactly one file for slot $N, found $COUNT"
+              exit 1
+            fi
+          done
+
+          if find build/TH1_slots_14_25 -maxdepth 1 -type f \( -name '0[1-9]_*.txt' -o -name '1[0-3]_*.txt' \) | grep -q .; then
+            echo "ERROR: build unexpectedly contains slot 01-13 files"
+            exit 1
+          fi
+
+          sha256sum build/TH1_slots_14_25/*.txt > build/TH1_slots_14_25/ARTIFACT_SHA256SUMS.txt
+          echo "Integrity checks passed."
+
+      - name: Upload finished TH1 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_slots_14_25
+          path: build/TH1_slots_14_25/
+          if-no-files-found: error
+          retention-days: 90
