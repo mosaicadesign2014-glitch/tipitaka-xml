@@ -1,0 +1,79 @@
+name: Build TH1 slot 25 v3 - Ruparupavibhaga
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout builder files from this fork
+        uses: actions/checkout@v4
+
+      - name: Checkout pinned official VRI CST XML
+        uses: actions/checkout@v4
+        with:
+          repository: VipassanaTech/tipitaka-xml
+          ref: e064d02da2db3df9a7d116a9191092b12e6dfe01
+          path: upstream/vri
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify exact VRI commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          SHA="$(git -C upstream/vri rev-parse HEAD)"
+          echo "$SHA"
+          test "$SHA" = "e064d02da2db3df9a7d116a9191092b12e6dfe01"
+
+      - name: Build slot 25 v3
+        shell: bash
+        run: |
+          python scripts/build_th1_slot25_v3.py \
+            upstream/vri \
+            --output build/slot25-v3
+
+      - name: Integrity checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          FILE="build/slot25-v3/25_ABHIDHAMMA_TIKA_MANUALS.txt"
+          MANIFEST="build/slot25-v3/PASS_C2B5_MANIFEST.txt"
+
+          test -f "$FILE"
+          test -f "$MANIFEST"
+
+          test "$(grep -c '^BEGIN_SOURCE$' "$FILE")" -eq 9
+          test "$(grep -c '^SOURCE_FILE: romn/' "$FILE")" -eq 8
+          test "$(grep -c '^SOURCE_FILE: external/ruparupavibhaga/' "$FILE")" -eq 1
+
+          grep -Fq 'Upacaya-santatiyo (catūhi ?) jāyantīti vuccanti.' "$FILE"
+          grep -Fq '(Na arūpakasattānaṃ paṭisandhikāle na' "$FILE"
+          grep -Fq 'saddo viyāti (?).' "$FILE"
+          grep -Fq 'RŪPĀRŪPAVIBHĀGO NIṬṬHITO.' "$FILE"
+          grep -Fq 'NO CONJECTURAL EMENDATION' "$FILE"
+
+          COUNT="$(find build/slot25-v3 -maxdepth 1 -type f -name '[0-9][0-9]_*.txt' | wc -l)"
+          test "$COUNT" -eq 1
+
+          sha256sum "$FILE" > build/slot25-v3/ARTIFACT_SHA256SUMS.txt
+          sha256sum "$MANIFEST" >> build/slot25-v3/ARTIFACT_SHA256SUMS.txt
+
+          echo "PASS C2-B5 integrity checks passed."
+
+      - name: Upload slot 25 v3 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_slot25_v3_Ruparupavibhaga
+          path: build/slot25-v3/
+          if-no-files-found: error
+          retention-days: 90
