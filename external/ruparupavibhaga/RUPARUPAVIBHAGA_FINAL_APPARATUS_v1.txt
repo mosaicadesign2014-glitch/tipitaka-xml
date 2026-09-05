@@ -1,0 +1,113 @@
+THERAVĀDA I — PASS C2-B5
+RŪPĀRŪPAVIBHĀGA — FINAL CRITICAL APPARATUS v1
+
+PURPOSE
+This apparatus accompanies a diplomatic PTS-based text.
+It does not claim to constitute a new critical edition.
+
+SIGLA / CONTROLS
+PTS  = A. P. Buddhadatta (ed.), Buddhadatta's Manuals I, PTS 1915, pp.149–159.
+UPT  = UPT589_4F, Myanmar-script manuscript, fols.249b–254a.
+FRY  = Mirko Fryba, modern Roman-Pāli control derived from the PTS publication line.
+EXE  = R.H.B. Exell, translation based on PTS 1915.
+CM   = A Comprehensive Manual of Abhidhamma (Bhikkhu Bodhi et al.):
+       doctrinal/classical-tradition control only; NOT a witness to Rūpārūpavibhāga.
+LIRI = LIRI-FPL 6889, complete Burmese witness (catalogue-level control only).
+
+BASE-FILE HASHES
+PTS_PDF_SHA256: 038337d23ebad13bf6d70b4405f33ccaeaff596896d7e3899e7e15931b59e699
+UPT589_4F_SHA256: b2a8b56cc380952a611b4ff3c03be6d802edaf6192a99ac71b41fc5e9d127d8d
+DIPLOMATIC_TEXT_SHA256: a4b40ead381ec831a0df96c560de527fbf80cb08f40dad37977a1ea1d75a892f
+
+EDITORIAL PRINCIPLE
+The PTS 1915 reading is the base. Editorial doubts are preserved.
+No conjectural emendation is adopted merely because a doctrinal parallel
+would yield smoother Pāli.
+
+A — PTS 149, opening prose
+MAIN PTS: Rūpārūpavibhāgan
+PTS FOOTNOTE: Rūpārūpavibhāgataṃ (?)
+STATUS: main-text reading retained diplomatically.
+
+B — PTS 149
+PTS: ādito (paṭṭhāya ?) catubbidhaṃ rūpaṃ
+STATUS: uncertainty preserved in diplomatic text.
+
+C — PTS 150
+PTS MAIN: Sakammajarūpaṃ
+PTS NOTE: kammajarūpaṃ (?)
+STATUS: main PTS reading retained.
+
+D — PTS 150
+PTS MAIN: na kehici samuṭṭhahanti
+PTS NOTE: na kehici (?)
+CLASSICAL/DOCTRINAL CONTROL:
+Later Abhidhamma manual tradition contains closely corresponding wording
+with kehici in the discussion of the characteristics of matter.
+STATUS: PTS main wording retained; no manuscript emendation claimed.
+
+E — PTS 150 — CRITICAL LOCUS
+PTS:
+Upacaya-santatiyo (catūhi ?) jāyantīti vuccanti.
+TEXTUAL STATUS:
+UNRESOLVED. The parenthetical catūhi is explicitly doubtful in PTS.
+FRY omits it in the running Pāli text; EXE's translation accepts the semantic
+force of four causes.
+DOCTRINAL CONTROL:
+The later Abhidhamma manual tradition distinguishes the four modes of origin
+of material phenomena from the status of the characteristics of matter.
+This makes a four-cause interpretation intelligible at the level of the material
+process, but it does NOT establish catūhi as the original wording here.
+EDITORIAL DECISION:
+PRESERVE EXACTLY AS PTS. No insertion, deletion, or emendation.
+
+F — PTS 150
+PTS MAIN: rūpavikāro
+PTS NOTE: rūpaṃ vikāro
+STATUS: main PTS reading retained.
+
+G — PTS 150
+PTS MAIN: lakkhaṇarūpāni
+PTS NOTE: lakkhaṇarūpaṃ (?)
+STATUS: main PTS reading retained.
+
+H — PTS 150 — VERY HIGH-RISK LOCUS
+PTS:
+(Na arūpakasattānaṃ paṭisandhikāle na saddo viyāti (?).
+TEXTUAL STATUS:
+UNRESOLVED; probably corrupt, contaminated, or gloss-like is an editorial
+diagnosis/inference, NOT an established manuscript reading.
+DOCTRINAL CONTROL:
+The later Abhidhamma manual tradition separately states:
+(1) no materiality occurs in the immaterial realm; and
+(2) sound is absent at the initial arising/rebirth-linking stage.
+The PTS clause appears to combine these two doctrinal environments, which
+helps explain its difficulty but does not authorize a conjectural correction.
+EDITORIAL DECISION:
+RETAIN THE PTS CLAUSE VERBATIM IN THE DIPLOMATIC LAYER.
+NO CONJECTURAL EMENDATION ADOPTED.
+
+I — PTS 154
+PTS: Hadayaṃ anissāya (?)
+STATUS:
+PTS uncertainty preserved diplomatically. Later Abhidhamma manual tradition
+strongly supports the doctrinal content, but no silent correction is made.
+
+MANUSCRIPT CONTROL
+UPT589_4F:
+- identity: Rūpārūpavibhāga
+- continuous supplied sequence: 249b–254a
+- role: independent manuscript witness
+- word-level E/H readings: NOT CLAIMED in this apparatus
+
+ATTRIBUTION
+Conventional/PTS attribution: Buddhadatta.
+Some catalogue/traditional evidence attributes the work to Vācissara.
+STATUS: DISPUTED; disagreement must be preserved in TH1 metadata.
+
+FINAL C2-B5 DECISION
+A diplomatic PTS-based text is fit for TH1 ingestion PROVIDED:
+- E and H remain explicitly unresolved;
+- H is not conjecturally rewritten;
+- UPT589_4F is cited only as manuscript control, not falsely transcribed;
+- modern copyrighted control works are not copied into the public repository.

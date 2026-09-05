@@ -1,0 +1,464 @@
+THERAVĀDA I — PASS C2-B5
+RŪPĀRŪPAVIBHĀGA — DIPLOMATIC PTS-BASED ROMAN-PĀLI TEXT v1
+
+BASE EDITION:
+A. P. Buddhadatta (ed.), Buddhadatta's Manuals, Part I,
+Pali Text Society, first published 1915, pp. 149–159.
+
+DIGITAL EDITION-CONTROL FILE:
+2015.292621.Buddhadattas-Manuals.pdf
+PDF_SHA256: 038337d23ebad13bf6d70b4405f33ccaeaff596896d7e3899e7e15931b59e699
+
+TRANSCRIPTION STATUS:
+Manual visual verification against the eleven printed page images.
+Unicode Pāli diacritics and line wrapping are normalized for research use.
+PTS uncertainty markers are preserved rather than silently emended.
+
+DIPLOMATIC POLICY:
+- E is preserved exactly in textual substance as PTS:
+  Upacaya-santatiyo (catūhi ?) jāyantīti vuccanti.
+- H is preserved without conjectural correction:
+  (Na arūpakasattānaṃ paṭisandhikāle na saddo viyāti (?).
+- No reading is attributed to UPT589_4F at word level unless securely read.
+- This is a PTS-based diplomatic research transcription, not a new critical edition.
+
+==============================================================================
+⟦PTS 149⟧
+==============================================================================
+
+RŪPĀRŪPAVIBHĀGA
+
+Namo tassa bhagavato arahato sammāsambuddhassa.
+
+Rūpārūpaviduṃ Buddhaṃ, rūpārūpātigaṃ muniṃ,
+namassitvā pavakkhāmi, Rūpārūpavibhāgataṃ.
+
+I. RŪPAVIBHĀGA.
+
+Rūpārūpavibhāgan¹ ti ettha tāva rūpan ti pathavīdhātu
+āpodhātu tejodhātu vāyodhātu, cakkhudhātu sotadhātu
+ghānadhātu jivhādhātu kāyadhātu rūpadhātu saddadhātu
+gandhadhātu rasadhātu phoṭṭhabbadhātu, itthindriyaṃ
+purisindriyaṃ jīvitindriyaṃ, hadayavatthu, ākāsadhātu,
+kāyaviññatti vacīviññatti, rūpassa lahutā, rūpassa mudutā,
+rūpassa kammaññatā; rūpassa upacayo, rūpassa santati,
+rūpassa jaratā, rūpassa aniccatā; kabaḷīkāro āhāro ceti
+evaṃ aṭṭhavīsatividhesu rūpesu ādito (paṭṭhāya ?) catubbidhaṃ
+rūpaṃ bhūtarūpaṃ nāma; sesaṃ upādārūpaṃ nāma.
+Cakkhudhātādipañcavidhaṃ ajjhattikarūpaṃ nāma; sesaṃ
+bāhirarūpaṃ nāma. Vaṇṇo gandho raso ojā cattāro mahābhūtā
+ti aṭṭhavidham pi avinibbhogarūpaṃ; sesaṃ vinibbhogarūpaṃ
+nāma. Cakkhudhātādi-pañcavidhaṃ hadayavatthu ca vatthurūpaṃ
+nāma; itaraṃ avatthukaṃ nāma. Tīn' indriyāni cakkhādīni
+pañceti aṭṭhavidham pi indriyarūpaṃ nāma; itaraṃ
+anindriyarūpaṃ nāma. Ṭhapetvā āpodhātuṃ ādito
+
+PTS NOTE 1: main text Rūpārūpavibhāgan; footnote Rūpārūpavibhāgataṃ (?).
+
+==============================================================================
+⟦PTS 150⟧
+==============================================================================
+
+paṭṭhāya dvādasavidhaṃ oḷārikarūpaṃ nāma; itaraṃ
+sukhumarūpaṃ nāma. Oḷārikarūpam eva santike rūpaṃ nāma.
+Sukhumarūpaṃ dūre rūpaṃ nāma. Sakammajarūpaṃ¹ upādinnaṃ;
+sesam anupādinnaṃ nāma. Rūpāyatanam ev' ekaṃ sanidassanaṃ;
+itaraṃ anidassanaṃ. Oḷārikaṃ sappaṭighaṃ; itaraṃ appaṭighaṃ.
+
+Aṭṭhindriyāni hadayavatthu ca kammajān' eva. Kāyaviññatti
+vacīviññatti ca cittajān' eva. Saddo utu-cittehi jāyati.
+Lahutā mudutā kammaññatā ca utu-cittāhārehi jāyanti.
+Jāti-jarā-maraṇāni kira na kehici samuṭṭhahanti.
+Upacaya-santatiyo (catūhi ?) jāyantīti vuccanti. Sesāni
+nava rūpāni utu-cittāhāra-kammehi jāyanti.
+
+Ādito paṭṭhāya sattarasa, āhāro cāti aṭṭhārasavidham pi
+rūparūpaṃ nāma.³ Kāyaviññattiādikaṃ pañcavidham pi
+rūpavikāro⁴ nāma. Ākāsadhātu kira rūpaparicchedo nāma.
+Jāti-jarā-maraṇāni tīṇi lakkhaṇarūpāni⁵ nāma.
+
+Sabbāni pan' etāni rūpāni Kāmaloke anūnāni labbhanti
+saṃsedajānaṃ ceva opapātikānañ ca. Aṇḍaja-jalābujānaṃ
+pana itthi-purisānaṃ paṭisandhikāle kāyadasaka-bhāvadasaka-
+vatthudasakavasena tīṇi dasakāni pātubhavanti. Napuṃsakassa
+pana bhāvadasakaṃ natthi, tathā paṭhamakappikānaṃ. Tesaṃ
+pana pavattikāle kamena cakkhudasaka-sotadasaka-ghānadasaka-
+jivhādasakāni pātubhavanti.
+
+Tesu avinibbhoga-rūpānañ ceva kāyindriya-jīvitindriyānañ ca
+vasena kāyadasakaṃ veditabbaṃ. Evaṃ sesa-dasakāni pi
+yojetvā veditabbāni.
+
+Rūpaloke pana ghāna-jivhā-kāya-gandha-rasa-phoṭṭhabbāni ceva
+itthindriya-purisindriyāni ca na labbhanti. Asaññīnaṃ pana
+cakkhu-sota-vatthu-saddāni pi na labbhanti. Arūpaloke pana
+rūpam eva natthi. (Na arūpakasattānaṃ paṭisandhikāle na
+saddo viyāti (?).
+
+Rūpavibhāgo niṭṭhito.
+
+PTS NOTE 1: kammajarūpaṃ (?).
+PTS NOTE 2: na kehici (?).
+PTS NOTE 3: rūpaṃ vikāro.
+PTS NOTE 4: Cf. Compendium of Philosophy, p. 156, n. 7; and the whole of Part VI. for this Vibhāga. (C. Rh. D.)
+PTS NOTE 5: lakkhaṇarūpaṃ (?).
+
+==============================================================================
+⟦PTS 151⟧
+==============================================================================
+
+II. ARŪPAVIBHĀGA.
+
+1. CITTAVIBHĀGA.
+
+Arūpaṃ pana citta-cetasika-nibbānavasena tividhaṃ.
+Tattha cittaṃ tāva saṅkhepena paṭisandhi-bhavaṅgāvajjana-
+dassanādi-sampaṭicchana-santīraṇa-votthapana-javana-
+tadālambaṇa-cuti-vasena dasadhā ṭhitaṃ. Vitthārena pana
+ekūnanavuti-vidhaṃ hoti. Kathaṃ?
+
+1. Somanassa-sahagataṃ ñāṇasampayuttaṃ asaṅkhārikaṃ ekaṃ.
+2. Somanassa-sahagataṃ ñāṇasampayuttaṃ sasaṅkhārikaṃ ekaṃ.
+3. Somanassa-sahagataṃ ñāṇavippayuttaṃ asaṅkhārikaṃ ekaṃ.
+4. Somanassa-sahagataṃ ñāṇavippayuttaṃ sasaṅkhārikaṃ ekaṃ.
+5. Upekkhā-sahagataṃ ñāṇasampayuttaṃ asaṅkhārikaṃ ekaṃ.
+6. Upekkhā-sahagataṃ ñāṇasampayuttaṃ sasaṅkhārikaṃ ekaṃ.
+7. Upekkhā-sahagataṃ ñāṇavippayuttaṃ asaṅkhārikaṃ ekaṃ.
+8. Upekkhā-sahagataṃ ñāṇavippayuttaṃ sasaṅkhārikaṃ ekan
+ti imāni aṭṭha kāmāvacara-kusalacittāni nāma.
+
+Te hadayaṃ nissāya vā anissāya vā manoviññāṇadhātāvajjanānantaraṃ
+rūpaṃ vā saddaṃ vā gandhaṃ vā rasaṃ vā phoṭṭhabbaṃ vā dhammaṃ vā
+ālambitvā dāna-sīla-bhāvanādīsu aññataramayāni hutvā uppajjanti.
+
+1. Vitakka-vicāra-pīti-sukha-cittekaggatā-sahitaṃ paṭhamajjhāna-
+kusalacittaṃ.
+2. Vicāra-pīti-sukha-cittekaggatā-sahitaṃ dutiyajjhāna-kusalacittaṃ.
+3. Pīti-sukha-cittekaggatā-sahitaṃ tatiyajjhāna-kusalacittaṃ.
+4. Sukhekaggatā-sahitaṃ catutthajjhāna-kusalacittaṃ.
+5. Upekkhekaggatā-sahitaṃ pañcamajjhāna-kusalacittañ ceti imāni
+pañca rūpāvacara-kusalacittāni nāma. Ekantena hadayaṃ nissāy' eva
+yathārahaṃ ñāṇasampayutta-kusalānantaraṃ bhāvanāmayān'
+
+==============================================================================
+⟦PTS 152⟧
+==============================================================================
+
+eva hutvā paṭhavīkasiṇādikaṃ ālambitvā uppajjanti.
+Pañcamaṃ pana chaḷārammaṇaṃ hoti.
+
+1. Ākāsānañcāyatana-samāpatti-kusalacittaṃ.
+2. Viññāṇañcāyatanasamāpatti-kusalacittaṃ.
+3. Ākiñcaññāyatanasamāpatti-kusalacittaṃ.
+4. Nevasaññānāsaññāyatanasamāpatti-kusalacittañ ceti imāni cattāri
+arūpāvacara-kusalacittāni nāma. Hadayaṃ nissāya vā anissāya vā
+upekkhā-sahagata-ñāṇasampayutta-kusalānantaraṃ bhāvanāmayān' eva
+hutvā yathānurūpaṃ kasiṇugghāṭimākāsañ ca paṭhamāruppaviññāṇañ ca
+natthibhāvañ ca ākiñcaññāyatanañ ca ālambitvā uppajjanti.
+
+1. Diṭṭhi-vicikicchā-samugghātikaṃ sotāpattimaggacittaṃ.
+2. Kāmarāga-vyāpādānaṃ tanukaraṃ sakadāgāmi-maggacittaṃ.
+3. Kāmarāga-vyāpādānaṃ samugghātikaṃ anāgāmi-maggacittaṃ.
+4. Rūparāga-arūparāga-māna-uddhacca-avijjādi-pañcuddhambhāgiya-
+saṃyojana-samugghātikaṃ arahattamaggacittañ cāti imāni cattāri
+lokuttara-kusalacittāni nāma.
+
+Imesu catusu lokuttarakusalacittesu paṭhamaṃ hadayaṃ nissāy' eva;
+itarāni tīṇi nissāya vā anissāya vā yathārahaṃ ñāṇasampayutta-
+kusalānantaraṃ bhāvanāmayān' eva hutvā avisesena cattāri pi nibbānaṃ
+ālambitvā "suññato vimokkho, animitto vimokkho, appaṇihito vimokkho"
+ti nāmena uppajjantīti. Imāni cattāri lokuttarakusalacittāni nāma.
+
+Ettāvatā ekavīsati kusalacittāni nāma.
+
+1. Somanassa-sahagataṃ diṭṭhigata-sampayuttaṃ asaṅkhārikaṃ,
+2. sasaṅkhārikaṃ.
+3. Somanassa-sahagataṃ diṭṭhigata-vippayuttaṃ asaṅkhārikaṃ,
+4. sasaṅkhārikaṃ.
+5. Upekkhā-sahagataṃ diṭṭhigata-sampayuttaṃ asaṅkhārikaṃ,
+6. sasaṅkhārikaṃ.
+7. Upekkhā-sahagataṃ diṭṭhigata-vippayuttaṃ asaṅkhārikaṃ,
+8. sasaṅkhārikan ti imāni aṭṭha lobhasahagatacittāni nāma.
+
+1. Domanassa-sahagataṃ paṭigha-sampayuttaṃ asaṅkhārikaṃ,
+2. sasaṅkhārikan ti imāni dve paṭighasampayuttacittāni nāma.
+
+1. Upekkhāsahagataṃ vicikicchā-sampayuttaṃ.
+2. Upekkhā-
+
+==============================================================================
+⟦PTS 153⟧
+==============================================================================
+
+sahagataṃ uddhacca-sampayuttañ ceti imāni dve momūhacittāni nāma.
+
+Imesu pana dvādasa-akusalacittesu dve paṭighacittāni ekantena
+hadayaṃ nissāya, itarāni nissāya vā anissāya vā, avisesena chasu
+ārammaṇesu yaṃ vā taṃ vā ālambitvā manoviññāṇadhātāvajjanānantaraṃ
+uppajjanti.
+
+Niṭṭhitāni dvādasa akusalacittāni.
+
+1. Cakkhāyatanaṃ nissāya iṭṭhasammataṃ rūpāyatanaṃ ālambitvā
+ālokūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+kusalavipākaṃ upekkhāsahagataṃ cakkhuviññāṇaṃ.
+2. Sotāyatanaṃ nissāya iṭṭhasammataṃ saddāyatanaṃ ālambitvā
+ākāsūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+kusalavipākaṃ upekkhāsahagataṃ sotaviññāṇaṃ.
+3. Ghānāyatanaṃ nissāya iṭṭhasammataṃ gandhāyatanaṃ ālambitvā
+vāyodhātūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+kusalavipākaṃ upekkhāsahagataṃ ghānaviññāṇaṃ.
+4. Jivhāyatanaṃ nissāya iṭṭhasammataṃ rasāyatanaṃ ālambitvā
+udakūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+kusalavipākaṃ upekkhāsahagataṃ jivhāviññāṇaṃ.
+5. Kāyāyatanaṃ nissāya iṭṭhasammataṃ phoṭṭhabbāyatanaṃ ālambitvā
+paṭhavūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+kusalavipākaṃ sukhasahagataṃ kāyaviññāṇaṃ.
+6. Hadayaṃ nissāya pañcannaṃ kusalavipākaviññāṇānam aññatarānantaraṃ
+tass' ev' ārammaṇaṃ gahetvā uppajjati kusalavipākāhetuka-manodhātu-
+upekkhāsahagataṃ sampaṭicchanacittaṃ.
+7. Hadayaṃ nissāya iṭṭhasammatesu chasu ārammaṇesu yaṃ vā taṃ vā
+ālambitvā kusalavipāka-manodhātu-upekkhāsahagata-sampaṭicchanānantaraṃ
+vā "santīraṇaṃ" ti nāmena, javanānantaraṃ vā "tadārammaṇaṃ" ti nāmena
+uppajjati kusalavipākāhetuka-manoviññāṇadhātu-somanassasahagataṃ
+santīraṇacittaṃ.
+8. Hadayaṃ nissāya iṭṭhasammatesu chasu ārammaṇesu yaṃ vā taṃ vā
+ālambitvā kusalavipākāhetuka-manodhātu-sampaṭicchanānantaraṃ vā
+"santīraṇaṃ" ti nāmena, javanānantaraṃ vā "tadārammaṇaṃ" ti nāmena,
+
+==============================================================================
+⟦PTS 154⟧
+==============================================================================
+
+tadārammaṇānantaraṃ vā "bhavaṅgaṃ" ti nāmena, bhavaṅgakkhaye vā
+"cutī" ti nāmena, cuticittānantaraṃ vā "paṭisandhī" ti nāmena,
+paṭisandhānantaraṃ vā "bhavaṅgaṃ" ti nāmena ca uppajjati
+kusalavipākāhetuka-manoviññāṇadhātu-upekkhāsahagataṃ santīraṇacittañ
+ceti imāni aṭṭha pi ahetukavipākacittāni nāma.
+
+1. Somanassa-sahagataṃ ñāṇasampayuttaṃ asaṅkhārikaṃ,
+2. sasaṅkhārikaṃ.
+3. Somanassa-sahagataṃ ñāṇavippayuttaṃ asaṅkhārikaṃ,
+4. sasaṅkhārikaṃ.
+5. Upekkhā-sahagataṃ ñāṇasampayuttaṃ asaṅkhārikaṃ,
+6. sasaṅkhārikaṃ.
+7. Upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikaṃ,
+8. sasaṅkhārikan ti imāni aṭṭha pi kāmāvacara-sahetuka-vipākacittāni
+nāma. Ekantena hadayaṃ nissāya iṭṭhasammatesu chasu ārammaṇesu
+yaṃ vā taṃ vā ālambitvā yathārahaṃ javanānantaraṃ vā "tadārammaṇaṃ"
+ti nāmena, tadārammaṇānantaraṃ vā "bhavaṅgaṃ" ti nāmena,
+bhavaṅgakkhaye vā "cutī" ti nāmena, cuticittānantaraṃ vā "paṭisandhī"
+ti nāmena, paṭisandhānantaraṃ vā "bhavaṅgaṃ" ti nāmena uppajjantīti.
+
+Evaṃ ahetukāni aṭṭha, sahetukāni aṭṭhā ti soḷasa
+kāmāvacara-kusalavipākacittāni samattāni.
+
+1. Vitakka-vicāra-pīti-sukha-cittekaggatā-sahitaṃ paṭhamajjhāna-
+vipākacittaṃ ... pe ... 5. pañcamajjhāna-vipākacittañ ceti imāni pañca
+pi rūpāvicara-vipākacittāni nāma. Ekantena hadayaṃ nissāya
+paṭhavīkasiṇādikaṃ ālambitvā javanānantaraṃ "bhavaṅgaṃ" ti nāmena,
+bhavaṅgakkhaye vā "cutī" ti nāmena, cuticittānantaraṃ vā "paṭisandhī"
+ti nāmena, paṭisandhānantaraṃ vā "bhavaṅgaṃ" ti nāmena uppajjanti.
+
+Ākāsānañcāyatana-vipākacittaṃ ... pe ... imāni cattāri
+arūpāvacara-vipākacittāni nāma. Hadayaṃ anissāya (?) yathānupubbikaṃ¹
+kasiṇugghāṭimākāsañ ca, paṭhamāruppaviññāṇañ ca, natthibhāvañ ca,
+ākiñcaññāyatanañ ca ālambitvā javanānantaraṃ vā "bhavaṅgaṃ" ti nāmena,
+bhavaṅga-
+
+PTS NOTE 1: yathānupubbaka°.
+
+==============================================================================
+⟦PTS 155⟧
+==============================================================================
+
+kkhaye vā "cutī" ti nāmena, cuticittānantaraṃ vā "paṭisandhī" ti nāmena,
+paṭisandhānantaraṃ vā "bhavaṅgaṃ" ti nāmena uppajjanti.
+
+Sotāpatti-phalacittaṃ ... pe ... Arahatta-phalacittañ ceti imesu
+catusu lokuttara-phalacittesu sotāpatti-phalacittaṃ tāva maggānantaraṃ
+jāyamānaṃ ekantena hadayaṃ nissāya, itarāni tīṇi pi nissāya vā
+anissāya vā, avisesena cattāri pi nibbānaṃ ālambitvā,
+paṭhamuppattiyaṃ maggānantaram eva "suññato vimokkho, animitto
+vimokkho, appaṇihito vimokkho" ti nāmena uppajjantīti. Sumattāni
+cattāri pi lokuttara-phalacittāni nāma.
+
+1. Cakkhāyatanaṃ nissāya aniṭṭhasammataṃ rūpāyatanaṃ ālambitvā
+ālokūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+akusalavipākaṃ upekkhāsahagataṃ cakkhuviññāṇaṃ.
+2. Sotāyatanaṃ nissāya aniṭṭhasammataṃ saddāyatanaṃ ālambitvā
+ākāsūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+akusalavipākaṃ upekkhāsahagataṃ sotaviññāṇaṃ.
+3. Ghānāyatanaṃ nissāya aniṭṭhasammataṃ gandhāyatanaṃ ālambitvā
+vātūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+akusalavipākaṃ upekkhāsahagataṃ ghānaviññāṇaṃ.
+4. Jivhāyatanaṃ nissāya aniṭṭhasammataṃ rasāyatanaṃ ālambitvā
+udakūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+akusalavipākaṃ upekkhāsahagataṃ jivhāviññāṇaṃ.
+5. Kāyāyatanaṃ nissāya aniṭṭhasammataṃ phoṭṭhabbāyatanaṃ ālambitvā
+paṭhavūpanissayaṃ labhitvā manodhātāvajjanānantaram eva uppajjati
+akusalavipākaṃ dukkhasahagataṃ kāyaviññāṇaṃ.
+6. Hadayaṃ nissāya pañcannaṃ akusalavipākaviññāṇānam
+aññatarānantaraṃ tass' ev' ārammaṇaṃ gahetvā uppajjati
+akusalavipākāhetuka-manodhātu-upekkhāsahagataṃ sampaṭicchanacittaṃ.
+7. Hadayaṃ nissāya aniṭṭhasammatesu chasu ārammaṇesu yaṃ vā taṃ vā
+ālambitvā akusalavipākāhetuka-manodhātu-sampaṭicchanānantaraṃ vā
+"santīraṇaṃ" ti nāmena, javanānantaraṃ vā "tadārammaṇaṃ" ti nāmena,
+tadārammaṇānantaraṃ vā "bha-
+
+==============================================================================
+⟦PTS 156⟧
+==============================================================================
+
+vaṅgaṃ" ti nāmena, bhavaṅgakkhaye vā "cutī" ti nāmena,
+cuticittānantaraṃ vā "paṭisandhī" ti nāmena, paṭisandhānantaraṃ vā
+"bhavaṅgaṃ" ti nāmena uppajjati akusalavipākāhetuka-manoviññāṇadhātu-
+upekkhāsahagata-santīraṇañ ceti imāni satta pi akusalavipākacittāni nāma.
+
+Evaṃ sabbathā pi chattiṃsa vipākacittāni nāma.
+
+1. Upekkhāsahagatāhetuka-kriyāmanodhātu-pañcadvārāvajjanacittaṃ
+hadayaṃ nissāya bhavaṅgānantaraṃ pañcasu ārammaṇesu yaṃ vā taṃ vā
+ālambitvā pañcannaṃ viññāṇānaṃ purecārikaṃ hutvā uppajjati.
+2. Kriyāhetuka-manoviññāṇadhātu-somanassasahagatacittaṃ ekantena
+hadayaṃ nissāy' eva manodvāre¹ chasu ārammaṇesu yaṃ vā taṃ vā
+ālambitvā arahato sitaṃ kurumānaṃ manoviññāṇadhātu-āvajjanānantaraṃ
+uppajjati.
+3. Kriyāhetuka-manoviññāṇadhātu-upekkhāsahagataṃ āvajjanacittaṃ
+hadayaṃ nissāya vā anissāya vā yathārahaṃ bhavaṅgānantaraṃ vā
+"āvajjanaṃ" ti nāmena, santīraṇānantaraṃ vā "votthapanaṃ" ti nāmena
+chasu ārammaṇesu yaṃ vā taṃ vā ālambitvā kāmāvacara-
+kusalākusalakriyājavanānaṃ purecārikaṃ hutvā uppajjati.
+Imāni tīṇi pi ahetukakriyācittāni nāma.
+
+Somanassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikaṃ sasaṅkhārikaṃ
+kriyācittaṃ. Somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikaṃ
+sasaṅkhārikaṃ kriyācittaṃ. Upekkhāsahagataṃ ñāṇasampayuttaṃ
+asaṅkhārikaṃ sasaṅkhārikaṃ kriyācittaṃ. Upekkhāsahagataṃ
+ñāṇavippayuttaṃ asaṅkhārikaṃ sasaṅkhārikaṃ kriyācittañ ceti imāni
+aṭṭha pi sahetuka-kriyācittāni nāma. Hadayaṃ nissāya vā anissāya vā
+chasu ārammaṇesu yaṃ vā taṃ vā ālambitvā manoviññāṇadhātāvajjanānantaraṃ
+uppajjanti. Evaṃ ahetukāni tīṇi sahetukāni aṭṭhā ti ekādasa
+kāmāvacara-kriyācittāni samattāni.
+
+PTS NOTE 1: manodvāresu.
+
+==============================================================================
+⟦PTS 157⟧
+==============================================================================
+
+1. Vitakka-vicāra-pīti-sukhekaggatā-sahitaṃ paṭhamajjhānakriyācittaṃ.
+2. Vicāra-pīti-sukhekaggatā-sahitaṃ dutiyajjhānakriyācittaṃ.
+3. Pīti-sukhekaggatā-sahitaṃ tatiyajjhānakriyācittaṃ.
+4. Sukhekaggatā-sahitaṃ catutthajjhānakriyācittaṃ.
+5. Upekkhekaggatā-sahitaṃ pañcamajjhānakriyācittañ ceti imāni pañca
+pi rūpāvacarakriyācittāni nāma. Ekantena hadayaṃ nissāya yathārahaṃ
+ñāṇasampayutta-kriyācittānantaraṃ paṭhavīkasiṇādikaṃ ālambitvā
+uppajjanti. Pañcamaṃ pana chaḷārammaṇam pi hoti.
+
+1. Ākāsānañcāyatanasamāpatti-kriyācittaṃ.
+2. Viññāṇañcāyatanasamāpatti-kriyācittaṃ.
+3. Ākiñcaññāyatanasamāpatti-kriyācittaṃ.
+4. Nevasaññānāsaññāyatanasamāpatti-kriyācittañ ceti imāni cattāri
+pi arūpāvacara-kriyācittāni nāma. Hadayaṃ nissāya vā anissāya vā
+upekkhāsahagata-ñāṇasampayutta-kriyācittānantaraṃ yathānupubbikaṃ
+kasiṇugghāṭimākāsañ ca paṭhamāruppaviññāṇañ ca natthibhāvañ ca
+ākiñcaññāyatanañ ca ālambitvā uppajjanti. Samattāni cattāri
+arūpāvacarakriyācittāni.
+
+Ettāvatā ekavīsati kusalacittāni, dvādasa akusalacittāni,
+chattiṃsa vipākacittāni, vīsati kriyācittāni ceti ekūnanavuti cittāni.
+
+2. CETASIKAVIBHĀGA.
+
+Cetasikā pana dvepaññāsa honti. Kathaṃ? Phasso vedanā saññā cetanā
+ekaggatā jīvitindriyaṃ manasikāro ceti satt' ime cetasikā
+sabbacitta-sādhāraṇā nāma.
+
+Saddhindriyaṃ satindriyaṃ paññindriyaṃ hiribalaṃ ottappabalaṃ
+alobho adoso kāyapassaddhi cittapassaddhi kāyalahutā cittalahutā
+kāyamudutā cittamudutā kāyakammaññatā cittakammaññatā kāyapāguññatā
+cittapāguññatā kāyujjukatā cittujjukatā tatramajjhattatā ceti ime
+vīsati cetasikā akusalacittesu ceva ahetukacittesu cāti samatiṃsacittesu
+nuppajjant' eva. Paññā pana dvādasasu ñāṇavippayuttesu pi na labbhati,
+tasmā dvācattāḷīsacittesu nuppajjati.
+
+==============================================================================
+⟦PTS 158⟧
+==============================================================================
+
+Karuṇā-muditā pana pañcamajjhāna-vajjita-rūpāvacaracittesu,
+somanassasahagata-kāmāvacara-kusalacittesu, sahetuka-
+somanassasahagata-kriyācittesu cāti samavīsati-cittesu kadāci
+uppajjanti visuṃ visuṃ.
+
+Sammāvācā sammākammanto sammā-ājīvo ca lokuttaracittesu uppajjant'
+eva. Lokiyacittesu pana kāmāvacara-kusalacittesu yeva kadāci nānā
+hutvā uppajjanti.
+
+Vitakko vicāro pīti viriyindriyaṃ chando adhimokkho ceti chasu
+pakiṇṇakacetasikesu vitakka-vicārā tāva dvipañcaviññāṇesu ceva
+uparimesu tīsu rūpāvacaracittesu ca sabbārūpacittesu cāti
+ekatiṃsacittesu nuppajjanti. Pīti pana domanassupekkhāsahagata-cittesu
+ceva kāyaviññāṇesu ca catutthajjhāna-manodvārāvajjanacittesu cāti
+catupaññāsacittesu nuppajjati. Viriyaṃ ahetukavipākesu ceva
+manodhātāvajjanesu cāti soḷasacittesu nuppajjati. Chando
+dvipañcaviññāṇa-manodhātuttika-santīraṇa-hasana-votthabbanānaṃ vasena
+aṭṭhārasasu ahetukacittesu ceva dvīsu momūhacittesu cāti
+samavīsaticittesu nuppajjati. Adhimokkho dvipañcaviññāṇesu ceva
+vicikicchācitte cāti ekādasasu cittesu nuppajjati.
+
+Kusalacetasikā niṭṭhitā.
+
+Ime¹ ekantena akusalacetasikā veditabbā: moho ahirikaṃ anottappaṃ
+uddhaccan ti cattāro cetasikā sabbākusalasādhāraṇā. Lobho aṭṭhasu
+lobhasahagatacittesu yeva uppajjati. Diṭṭhi catusu
+diṭṭhigatasampayuttacittesu yeva uppajjati. Māno kadāci catusu
+diṭṭhigatavippayuttesu yeva uppajjati. Thīna-middhaṃ pañcasu
+sasaṅkhārikacittesu yeva uppajjati. Doso dvīsu paṭighacittesu yeva
+uppajjati. Issā-macchera-kukkuccāni dvīsu domanassasahagatacittesu
+yeva kadāci uppajjanti visuṃ visuṃ. Vicikicchā vicikicchāsahagate
+yeva uppajjati. Ime cuddasa cetasikā ekantena akusalā yevāti.
+
+Evaṃ sabbathā pi saṅkhepena dvepaññāsa cetasikā veditabbā ti.
+
+PTS NOTE 1: Imāni.
+
+==============================================================================
+⟦PTS 159⟧
+==============================================================================
+
+3. CETASIKASAMPAYOGA.
+
+Dvipañcaviññāṇesu satt' eva cetasikā bhavanti.
+Manodhātuttikāhetukapaṭisandhiyugalesu dasa.
+Somanassasantīraṇa-votthapanesu ekādasa. Hasanacitte dvādasa.
+
+Akusalesu momūhacittesu dvīsu paṇṇarasa. Pañcama-sattama-navamesu
+aṭṭhārasa. Paṭhama-tatiyesu ekūnavīsati. Chaṭṭhama-dasamesu vīsati.
+Dutiya-catutthesu pana cittesu ekavīsati.
+
+Rūpāvacara-pañcamesu arūpesu ca tiṃsati.
+Upekkhā-sahagata-ñāṇavippayuttacittesu vipāka-kriyācittesu ceva
+catutthajjhāne ca ekatiṃsati.
+Upekkhāsahagata-ñāṇasampayutta-vipākakriyāsu ceva
+upekkhāsahagata-ñāṇavippayutta-kusale ca
+somanassasahagata-ñāṇavippayutta-vipāke ca tatiyajjhāne ca dvattiṃsa.
+Somanassasahagata-ñāṇavippayutta-vipākakusalakriyāsu ceva
+upekkhāsahagata-ñāṇasampayutta-kusale ca
+somanassasahagata-ñāṇasampayutta-vipāke ca dutiyajjhāne ca tettiṃsa.
+Somanassasahagata-ñāṇasampayutta-kusalakriyāsu ceva paṭhamajjhāne ca
+catuttiṃsa.
+
+Appamaññā-viratiyo pana ekato jāyanti. Lokuttaracittesu pana
+chattiṃsa cetasikā bhavanti.
+
+Accutaṃ amataṃ khemaṃ, niccaṃ santaṃ asaṅkhataṃ,
+vāṇātīto Tathāgato, nibbāṇaṃ ti pakittayi.
+
+Anena puññena tu Buddhadatto,
+vihāra-saṃsārabhayā sumutto,
+mahāmahaṃ rāgavinodanaṃ sivaṃ
+anāsavaṃ sevatu khippam evāti.
+
+RŪPĀRŪPAVIBHĀGO NIṬṬHITO.
