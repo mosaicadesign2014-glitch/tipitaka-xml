@@ -1,0 +1,45 @@
+name: Validate TH1 C3-B metadata freeze v1.3
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate C3-B metadata
+        run: python scripts/validate_th1_c3b_metadata_v1_3.py
+
+      - name: Package metadata freeze
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/TH1_C3B_metadata_freeze_v1_3
+          cp metadata/TH1_SOURCE_REGISTRY_v1_3.csv build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/TH1_SLOT_FREEZE_C3B_v1_3.csv build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/TH1_PROVENANCE_01_13_VERIFIED.csv build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/TH1_SUBWORK_REGISTRY_v1.csv build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/TH1_C2C_RETRIEVAL_TEST_REPORT_v1.txt build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/VERSION_LOCK_v1_3.csv build/TH1_C3B_metadata_freeze_v1_3/
+          cp metadata/TH1_C3B_FINAL_AUDIT_REPORT_v1_3.txt build/TH1_C3B_metadata_freeze_v1_3/
+          cd build/TH1_C3B_metadata_freeze_v1_3
+          sha256sum * > ARTIFACT_SHA256SUMS.txt
+
+      - name: Upload C3-B metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_C3B_metadata_freeze_v1_3
+          path: build/TH1_C3B_metadata_freeze_v1_3/
+          if-no-files-found: error
+          retention-days: 90
