@@ -1,0 +1,40 @@
+THERAVĀDA I — C2-C METADATA FREEZE REPORT v1.2
+
+TEXTUAL CORE
+25/25 slots present.
+156 total source blocks.
+156 unique SOURCE_FILE values.
+156 unique SOURCE_SHA256 values.
+
+PROVENANCE POPULATION
+VRI source units: 153
+  - slots 01–13: 61/61 SHA256-verified against pinned VRI commit
+    e064d02da2db3df9a7d116a9191092b12e6dfe01
+  - slots 14–25: 92 VRI units pinned in audited slot builders/metadata
+
+cst-kit source units: 2
+  - Kaṅkhāvitaraṇī in slot 15
+  - pinned commit cc0bab5fdf378d01deb3649112c0a9fddc317283
+
+External diplomatic source units: 1
+  - Rūpārūpavibhāga, PTS 1915, in slot 25
+  - E/H unresolved readings preserved in apparatus
+
+TOTAL
+153 + 2 + 1 = 156 source blocks.
+
+SOURCE REGISTRY STATUS COUNTS
+{'VERIFIED_PINNED_01_13': 61, 'PINNED_IN_SLOT': 92, 'VERIFIED_C2A_CSTKIT': 2, 'VERIFIED_C2B5_DIPLOMATIC_EXTERNAL': 1}
+
+SEMANTIC NORMALIZATION
+36 clear logical subworks are recorded in TH1_SUBWORK_REGISTRY_v1.csv.
+Retrieval testing supports keeping SUBWORK metadata in the registry layer.
+Physical Pāli slot files remain unchanged.
+
+CORRECTION FROM v1.1
+VERSION_LOCK_v1_1 incorrectly described the corpus as containing
+“156 VRI units.” The correct population is 153 VRI + 2 cst-kit + 1 external PTS-based unit.
+No source text, source hash, slot hash, or provenance record was changed by this correction.
+
+C2-C DECISION
+PASS after this metadata-only correction.
