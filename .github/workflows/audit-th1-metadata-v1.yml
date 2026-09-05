@@ -1,0 +1,60 @@
+name: Audit TH1 provenance 01-13 and metadata
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout audit files from this fork
+        uses: actions/checkout@v4
+
+      - name: Checkout pinned VRI CST XML
+        uses: actions/checkout@v4
+        with:
+          repository: VipassanaTech/tipitaka-xml
+          ref: e064d02da2db3df9a7d116a9191092b12e6dfe01
+          path: upstream/vri
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify exact upstream commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          SHA="$(git -C upstream/vri rev-parse HEAD)"
+          echo "$SHA"
+          test "$SHA" = "e064d02da2db3df9a7d116a9191092b12e6dfe01"
+
+      - name: Verify all 61 source XML units used by slots 01-13
+        shell: bash
+        run: |
+          python scripts/verify_th1_provenance_01_13.py \
+            upstream/vri \
+            --expected metadata/TH1_01_13_EXPECTED_SOURCES.csv \
+            --source-registry metadata/TH1_SOURCE_REGISTRY_v1.csv \
+            --subwork-registry metadata/TH1_SUBWORK_REGISTRY_v1.csv \
+            --slot-freeze metadata/TH1_SLOT_FREEZE_C2B5_v1.csv \
+            --output build/th1-metadata-audit
+
+      - name: Create artifact checksums
+        shell: bash
+        run: |
+          cd build/th1-metadata-audit
+          sha256sum *.csv *.txt > ARTIFACT_SHA256SUMS.txt
+
+      - name: Upload metadata audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_metadata_provenance_audit_v1
+          path: build/th1-metadata-audit/
+          if-no-files-found: error
+          retention-days: 90
