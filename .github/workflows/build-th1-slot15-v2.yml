@@ -1,0 +1,93 @@
+name: Build TH1 slot 15 v2 - Kankhavitarani
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout builder files from this fork
+        uses: actions/checkout@v4
+
+      - name: Checkout pinned official VRI CST XML
+        uses: actions/checkout@v4
+        with:
+          repository: VipassanaTech/tipitaka-xml
+          ref: e064d02da2db3df9a7d116a9191092b12e6dfe01
+          path: upstream/vri
+          fetch-depth: 1
+
+      - name: Checkout pinned cst-kit
+        uses: actions/checkout@v4
+        with:
+          repository: bhaddacak/cst-kit
+          ref: cc0bab5fdf378d01deb3649112c0a9fddc317283
+          path: upstream/cst-kit
+          fetch-depth: 1
+
+      - name: Set up Python inside GitHub runner
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify exact upstream commits
+        shell: bash
+        run: |
+          set -euo pipefail
+          VRI_SHA="$(git -C upstream/vri rev-parse HEAD)"
+          CSTKIT_SHA="$(git -C upstream/cst-kit rev-parse HEAD)"
+          echo "VRI:     $VRI_SHA"
+          echo "cst-kit: $CSTKIT_SHA"
+          test "$VRI_SHA" = "e064d02da2db3df9a7d116a9191092b12e6dfe01"
+          test "$CSTKIT_SHA" = "cc0bab5fdf378d01deb3649112c0a9fddc317283"
+
+      - name: Build slot 15 v2
+        shell: bash
+        run: |
+          python scripts/build_th1_slot15_v2.py \
+            upstream/vri \
+            upstream/cst-kit \
+            --output build/slot15-v2
+
+      - name: Integrity checks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          FILE="build/slot15-v2/15_VINAYA_ATTHAKATHA.txt"
+          MANIFEST="build/slot15-v2/PASS_C2A_MANIFEST.txt"
+
+          test -f "$FILE"
+          test -f "$MANIFEST"
+
+          test "$(grep -c '^BEGIN_SOURCE$' "$FILE")" -eq 7
+          test "$(grep -c '^END_METADATA$' "$FILE")" -eq 7
+          test "$(grep -c '^SOURCE_FILE: romn/' "$FILE")" -eq 5
+          test "$(grep -c '^SOURCE_FILE: raw/cst-ve-kkh' "$FILE")" -eq 2
+
+          grep -q '^SOURCE_FILE: raw/cst-ve-kkh1.xml$' "$FILE"
+          grep -q '^SOURCE_FILE: raw/cst-ve-kkh2.xml$' "$FILE"
+          grep -q '^LICENSE: CC BY-SA 4.0$' "$FILE"
+
+          if grep -Eq '<(p|pb|note|hi)([ >])' "$FILE"; then
+            echo "ERROR: raw XML tags remain in generated TXT."
+            exit 1
+          fi
+
+          sha256sum "$FILE" > build/slot15-v2/ARTIFACT_SHA256SUMS.txt
+          sha256sum "$MANIFEST" >> build/slot15-v2/ARTIFACT_SHA256SUMS.txt
+
+          echo "PASS C2-A integrity checks passed."
+
+      - name: Upload slot 15 v2 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TH1_slot15_v2_Kankhavitarani
+          path: build/slot15-v2/
+          if-no-files-found: error
+          retention-days: 90
